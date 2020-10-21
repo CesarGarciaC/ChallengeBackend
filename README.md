@@ -14,3 +14,7 @@ Respuestas:
 8. Se ejecuta una funcion "trim()" pero no se asigna a la cadena, posible error de lógica.<br />
 9. Mal manejo de credenciales para acceso a BD. Estas deberían de estar en un archivo properties o en un file system en el servidor.<br />
 10. No se manejan excepciones para la manipulación de ficheros.<br />
+
+# Ejecución
+
+./mvnw clean test
